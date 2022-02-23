@@ -48,7 +48,7 @@ int volume(int height, int width, int length);
 }
 int volume(int height, int width, int length)
 {
-  return height * width * length;
+  return width * height * length;
 }
 
 // Implement the functions here
