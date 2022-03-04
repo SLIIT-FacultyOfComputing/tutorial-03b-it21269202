@@ -48,6 +48,7 @@ int volume(int height, int width, int length);
 }
 int volume(int height, int width, int length)
 {
+  int totalVolume;
   return width * height * length;
 }
 
